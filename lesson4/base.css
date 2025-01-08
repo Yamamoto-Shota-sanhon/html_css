@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 上の部分は気にせずここから書く */
+
+.box {
+  display: flex;
+  width: 1200px;
+  height: 900px;
+  border: 2px solid;
+  margin: 5px auto;
+  justify-content: space-between;
+}
+
+.redbox{
+ display: flex;
+ background-color: red;
+ width: 400px;
+ height: auto;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.a {
+  width: 60px;
+  height: 60px;
+  border: 2px solid;
+  background-color: white;
+  margin-right: 20px;
+}
+
+
+.b {
+  width: 60px;
+  height: 60px;
+  border: 2px solid;
+  background-color: white;
+
+}
+
+
+
+
+
+.bulebox{
+  display: flex;
+  background-color: blue;
+  width: 400px;
+  height: auto;
+  justify-content: right;
+  align-items: flex-start;
+}
+
+.c {
+  width: 60px;
+  height: 60px;
+  border: 2px solid;
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.d {
+  width: 60px;
+  height: 60px;
+  border: 2px solid;
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+
+
+
+
+.greenbox {
+  display: flex;
+  background-color: green;
+  width: 400px;
+  height: auto;
+  justify-content: flex-end;
+  flex-flow: column;
+}
+
+.e {
+  width: 60px;
+  height: 60px;
+  border: 2px solid;
+  background-color: white;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+
+.f {
+  width: 60px;
+  height: 60px;
+  border: 2px solid;
+  background-color: white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
